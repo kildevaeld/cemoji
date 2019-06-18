@@ -1,5 +1,9 @@
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct emoji_s {
   int no;
   const char *category;
@@ -9,3 +13,7 @@ typedef struct emoji_s {
   const char *tags;
   const char *shortcode;
 } emoji_t;
+
+#ifdef __cplusplus
+}
+#endif

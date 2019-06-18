@@ -7,13 +7,6 @@ const URL =
 
 async function generator() {
   let data = await (await request.get(URL)).json();
-  for (let i of data) {
-    // console.log(i);
-    // i.Unicode =
-    //     i.Unicode.split(' ').map(m => m.replace('U+', '\\u')).join('');
-  }
-
-
 
   let templateData = await fs.readFile('./template/c.hbs');
 
