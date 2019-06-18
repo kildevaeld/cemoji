@@ -1,0 +1,11 @@
+#pragma once
+
+#include "emoji_types.h"
+
+const emoji_t emoji_data[] = {
+{{#each emojis}}
+    { {{No}}, "{{Category}}", "{{SubCategory}}", "{{Emoji}}", "{{Name}}","{{Tags}}", "{{Shortcode}}" },
+{{/each}}
+};
+
+int emoji_data_length = {{len}};

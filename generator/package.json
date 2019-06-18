@@ -1,0 +1,16 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fetchain": "^0.2.0",
+    "hbs": "^4.0.4",
+    "mz": "^2.7.0"
+  }
+}
